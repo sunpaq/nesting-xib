@@ -13,9 +13,9 @@
 		FD1FC0E82324F0CC00D823BC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1FC0E62324F0CC00D823BC /* Main.storyboard */; };
 		FD1FC0EA2324F0CD00D823BC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FD1FC0E92324F0CD00D823BC /* Assets.xcassets */; };
 		FD1FC0ED2324F0CD00D823BC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FD1FC0EB2324F0CD00D823BC /* LaunchScreen.storyboard */; };
-		FD1FC0F52324F16F00D823BC /* NibViewContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FC0F42324F16F00D823BC /* NibViewContainer.swift */; };
-		FD1FC0F72324F3BC00D823BC /* NibView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD1FC0F62324F3BC00D823BC /* NibView.xib */; };
 		FD1FC0F92324F45300D823BC /* NibView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD1FC0F82324F45300D823BC /* NibView.swift */; };
+		FD66816323311D11007DC1F8 /* CardView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FD66816123311D11007DC1F8 /* CardView.swift */; };
+		FD66816423311D11007DC1F8 /* CardView.xib in Resources */ = {isa = PBXBuildFile; fileRef = FD66816223311D11007DC1F8 /* CardView.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -27,9 +27,9 @@
 		FD1FC0E92324F0CD00D823BC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FD1FC0EC2324F0CD00D823BC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		FD1FC0EE2324F0CD00D823BC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		FD1FC0F42324F16F00D823BC /* NibViewContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibViewContainer.swift; sourceTree = "<group>"; };
-		FD1FC0F62324F3BC00D823BC /* NibView.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = NibView.xib; sourceTree = "<group>"; };
 		FD1FC0F82324F45300D823BC /* NibView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NibView.swift; sourceTree = "<group>"; };
+		FD66816123311D11007DC1F8 /* CardView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CardView.swift; sourceTree = "<group>"; };
+		FD66816223311D11007DC1F8 /* CardView.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = CardView.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -69,9 +69,9 @@
 				FD1FC0E92324F0CD00D823BC /* Assets.xcassets */,
 				FD1FC0EB2324F0CD00D823BC /* LaunchScreen.storyboard */,
 				FD1FC0EE2324F0CD00D823BC /* Info.plist */,
-				FD1FC0F42324F16F00D823BC /* NibViewContainer.swift */,
-				FD1FC0F62324F3BC00D823BC /* NibView.xib */,
 				FD1FC0F82324F45300D823BC /* NibView.swift */,
+				FD66816123311D11007DC1F8 /* CardView.swift */,
+				FD66816223311D11007DC1F8 /* CardView.xib */,
 			);
 			path = IBDesignableDemo;
 			sourceTree = "<group>";
@@ -134,9 +134,9 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1FC0F72324F3BC00D823BC /* NibView.xib in Resources */,
 				FD1FC0ED2324F0CD00D823BC /* LaunchScreen.storyboard in Resources */,
 				FD1FC0EA2324F0CD00D823BC /* Assets.xcassets in Resources */,
+				FD66816423311D11007DC1F8 /* CardView.xib in Resources */,
 				FD1FC0E82324F0CC00D823BC /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -148,11 +148,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FD1FC0F52324F16F00D823BC /* NibViewContainer.swift in Sources */,
 				FD1FC0E52324F0CC00D823BC /* ViewController.swift in Sources */,
 				FD1FC0E12324F0CC00D823BC /* AppDelegate.swift in Sources */,
 				FD1FC0E32324F0CC00D823BC /* SceneDelegate.swift in Sources */,
 				FD1FC0F92324F45300D823BC /* NibView.swift in Sources */,
+				FD66816323311D11007DC1F8 /* CardView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
